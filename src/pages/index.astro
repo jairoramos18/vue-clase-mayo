@@ -1,12 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Directive from '../components/vue/Directive.vue';
+import TODO from '../components/vue/TODO.vue';
 
 ---
 
 <Layout title="Welcome to Astro.">
-	<h1>hola mundo</h1>
+
 	
-<Directive client:load></Directive>
+<!-- <Directive client:load></Directive> -->
+<TODO client:load></TODO>
 </Layout>
 
